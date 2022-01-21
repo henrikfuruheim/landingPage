@@ -9,7 +9,7 @@ st.image('./header_english.png')
 
 col1, col2, col3 = st.columns(3)
 
-with col3:
+with col2:
         st.header("Lånekassens AI")
         st.write("""
         Student loan fraud costs Lånekassen several million a year. In particular, applicants may falsely state that they are living away from home, and thus be eligible for an education grant (stipend). Lånekassen estimates that a recurring 4-5 % of students cannot prove that they’re living away from home. \n
