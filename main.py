@@ -1,10 +1,12 @@
 import streamlit as st
+import webbrowser
+
 
 
 st.set_page_config(layout="wide")
 st.image('./header_english.png')
 
-st.markdown('# <span style="color:#410464">Our use of AI </span>', unsafe_allow_html=True)
+st.markdown('<a href="https://share.streamlit.io/henrikfuruheim/landingpage/main.py">This is a link</a>', unsafe_allow_html=True)
 
 st.write("""
         Student loan fraud costs Lånekassen several million a year. In particular, applicants may falsely state that they are living away from home, and thus be eligible for an education grant (stipend). Lånekassen estimates that a recurring 4-5 % of students cannot prove that they’re living away from home. \n
@@ -13,3 +15,10 @@ st.write("""
     In our risk calculator widget to the right, you see the most important variables in our AI model. To better understand how our model calculates risk, we invite you to manipulate the variables to the right and see how the risk estimate changes. 
     """
         )
+
+
+
+
+
+
+
