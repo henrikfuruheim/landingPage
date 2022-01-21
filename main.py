@@ -3,10 +3,13 @@ import webbrowser
 
 
 
-st.set_page_config(layout="wide")
+st.set_page_config(
+        page_title="Lånekassen AI"
+
+)
 st.image('./header_english.png')
 
-st.write("check out this [link](https://share.streamlit.io/mesmith027/streamlit_webapps/main/MC_pi/streamlit_app.py)")
+st.write("Klikk her for kalkulator[link](https://share.streamlit.io/gungro/eit2022v)")
 
 st.write("""
         Student loan fraud costs Lånekassen several million a year. In particular, applicants may falsely state that they are living away from home, and thus be eligible for an education grant (stipend). Lånekassen estimates that a recurring 4-5 % of students cannot prove that they’re living away from home. \n
